@@ -1,0 +1,696 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* LAYOUT STYLES */
+body {
+  font-size: 15px;
+  line-height: 1.5;
+  background: #fafafa url(../images/template/body-bg.jpg) 0 0 repeat;
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  font-weight: 400;
+  color: #3c3c3c;
+}
+
+a {
+  color: #2879d0;
+}
+a:hover {
+  color: #2268b2;
+}
+
+header {
+  padding-top: 10px;
+  font-family: 'Ubuntu', sans-serif;
+  background: #2e7bcf url(../images/template/header-bg.jpg) 0 0 repeat-x;
+  border-bottom: solid 1px #275da1;
+}
+
+header h1 {
+  letter-spacing: -1px;
+  font-size: 38px;
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 0.2em;
+  width: 540px;
+}
+
+header h2 {
+  font-size: 20px;
+  color: #9ddcff;
+  font-weight: normal;
+  line-height: 1.3;
+  width: 600px;
+  letter-spacing: 0;
+}
+
+.inner {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+#content-wrapper {
+  border-top: solid 1px #fff;
+  padding-top: 30px;
+}
+
+#main-content {
+  width: 690px;
+  float: left;
+  margin-top: -29px;
+}
+
+#main-content img {
+  max-width: 100% - 4px;
+  border: 2px solid #DEDEDE;
+  border-radius: 10px;
+}
+
+aside#applicationSidebar,
+aside#sidebar {
+  width: 200px;
+  padding-left: 20px;
+  min-height: 504px;
+  float: right;
+  background: transparent url(../images/template/sidebar-bg.jpg) 0 0 no-repeat;
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+aside#applicationSidebar p.repo-owner,
+aside#applicationSidebar p.repo-owner a,
+aside#sidebar p.repo-owner,
+aside#sidebar p.repo-owner a {
+  font-weight: bold;
+}
+
+#downloads {
+  margin-bottom: 40px;
+}
+a.logo {
+  margin-right: 9px;
+}
+a.button {
+  width: 134px;
+  height: 58px;
+  line-height: 1.2;
+  font-size: 23px;
+  color: #fff;
+  padding-left: 68px;
+  padding-top: 22px;
+  font-family: 'Ubuntu', sans-serif;
+}
+a.button small {
+  display: block;
+  font-size: 11px;
+}
+header img {
+  position: relative;
+  float: right;
+  margin-top: -90px;
+  margin-left: 150px;
+  padding-right: 40px;
+}
+#github_button {
+  width: 138px;
+  padding-left: 70px;
+  display: block;
+  background: transparent url(../images/template/github-button-blue.png) 0 0 no-repeat;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+aside a.button {
+  width: 138px;
+  padding-left: 70px;
+  display: block;
+  background: transparent url(../images/template/download-button.png) 0 0 no-repeat;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+code, pre {
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #222;
+  margin-bottom: 30px;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+code {
+  background-color: #f2f8fc;
+  border: solid 1px #dbe7f3;
+  padding: 0 3px;
+}
+
+pre {
+  border: 2px solid #DEDEDE;
+  border-radius: 10px;
+  padding: 20px;
+  background: #333333;
+  text-shadow: none;
+  overflow: auto;
+  border: solid 1px #f2f2f2;
+}
+pre code {
+  color: #efefef;
+  background-color: #333333;
+  border: none;
+  padding: 0;
+}
+
+ul, ol, dl {
+  margin-bottom: 20px;
+}
+
+
+/* COMMON STYLES */
+
+hr {
+  margin-top: -8px;
+  margin-bottom: 15px;
+  background: transparent url('../images/hr.png') 0 0 no-repeat;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #ebebeb;
+}
+
+th {
+  font-weight: 500;
+}
+
+td {
+  border: 1px solid #ebebeb;
+  text-align: center;
+  font-weight: 300;
+}
+
+form {
+  background: #f2f2f2;
+  padding: 20px;
+
+}
+
+/* GENERAL ELEMENT TYPE STYLES */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+#main-content h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.8em;
+  letter-spacing: -1px;
+  color: #474747;
+}
+
+#main-content h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #474747;
+}
+
+#main-content h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 24px;
+  margin-bottom: 8px;
+  color: #474747;
+}
+
+#main-content h4 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #474747;
+}
+
+#main-content h5 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  color: #474747;
+}
+
+#main-content h6 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: .8em;
+  color: #474747;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p a {
+  font-weight: 400;
+}
+
+blockquote {
+  font-size: 1.6em;
+  border-left: 10px solid #e9e9e9;
+  margin-bottom: 20px;
+  padding: 0 0 0 30px;
+}
+
+ul li {
+  list-style: disc inside;
+  padding-left: 20px;
+}
+
+ol li {
+  list-style: decimal inside;
+  padding-left: 3px;
+}
+
+dl dd {
+  font-style: italic;
+  font-weight: 100;
+}
+
+footer {
+  background: transparent url('../images/hr.png') 0 0 no-repeat;
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 13px;
+  color: #aaa;
+}
+
+footer a {
+  color: #3c3c3c;
+}
+footer a:hover {
+  color: #444;
+}
+
+/* Sección de instalación */
+.installation pre {
+	margin-top:5px;
+}
+
+.installation img {
+    max-width: 685px;
+    border: 2px solid #DEDEDE;
+    border-radius: 10px;
+    margin-bottom: 23px;
+}
+
+/* Ficha de aplicación */
+
+.ficha-aplicacion img {
+    float: left;
+	margin-bottom: 40px;
+	margin-left: 30px;
+}
+.ficha-aplicacion label {
+    margin-left:20px;
+    font-weight: bold;
+}
+.ficha-aplicacion span {
+    margin-left: 20px;
+}
+
+
+/* Image Slider
+================================================= */
+
+/* http://www.menucool.com */
+
+#sliderFrame {
+  position:relative;
+  width:100%;
+  margin: 0 auto;
+} /*remove the "margin:0 auto;" if you want to align the whole slider to the left side*/
+
+#slider {
+  width:100%;
+  height:431px;/* Make it the same size as your images */
+  background:#fff url(../images/image-slider/loading.gif) no-repeat 50% 50%;
+  position:relative;
+  margin:0 auto;/*make the image slider center-aligned */
+  box-shadow: 0px 1px 5px #999999;
+}
+
+#slider img {
+  position:absolute;
+  border:none;
+  display:none;
+}
+
+/* the link style (if an image is wrapped in a link) */
+#slider a.imgLink {
+  z-index:2;
+  display:none;
+  position:absolute;
+  top:0px;
+  left:0px;
+  border:0;
+  padding:0;
+  margin:0;
+  width:100%;
+  height:100%;
+}
+
+/* Caption styles */
+div.mc-caption-bg,
+div.mc-caption-bg2 {
+  position:absolute;
+  width:100%;
+  height:auto;
+  padding:0;
+  left:0px; /*if the caption needs to be aligned from right, specify by right instead of left. i.e. right:20px;*/
+  bottom:0px;/*if the caption needs to be aligned from top, specify by top instead of bottom. i.e. top:150px;*/
+  z-index:3;
+  overflow:hidden;
+  font-size: 0;
+}
+
+div.mc-caption-bg {
+  background-color:black;
+}
+
+div.mc-caption {
+  font: bold 14px/20px Arial;
+  color:#EEE;
+  z-index:4;
+  padding:10px 0;/*Adding a padding-left or padding-right here will make the caption area wider than its background. Sometimes you may need to define its width again here to keep it the same width as its background area (div.mc-caption-bg).*/
+  text-align:center;
+}
+
+div.mc-caption a {
+  color:#FB0;
+}
+
+div.mc-caption a:hover {
+  color:#DA0;
+}
+
+/* ------ built-in navigation bullets wrapper ------*/
+div.navBulletsWrapper  {
+  top:447px; left:200px; /* Its position is relative to the #slider */
+  width:382px;
+  background:none;
+  margin-left:-40px;
+  position:relative;
+  z-index:5;
+  cursor:pointer;
+}
+
+/* each bullet */
+div.navBulletsWrapper div {
+    width:11px;
+    height:11px;
+    background:
+    transparent url(../images/image-slider/bullet.png) no-repeat 0 0;
+    float:left;
+    overflow:hidden;
+    vertical-align:middle;
+    cursor:pointer;
+    margin-right:11px;/* distance between each bullet*/
+    _position:relative;/*IE6 hack*/
+}
+
+div.navBulletsWrapper div.active {background-position:0 -11px;}
+
+/* --------- Others ------- */
+#slider {
+  -moz-transform:translate3d(0,0,0);
+   -ms-transform:translate3d(0,0,0);
+    -o-transform:translate3d(0,0,0);
+       transform:translate3d(0,0,0);
+}
+
+/* Menu
+================================================= */
+
+/* Visit http://www.menucool.com/horizontal/javascript-menu for source code and other menu CSS templates */
+
+#sse2 {
+    /*You can decorate the menu's container, such as adding background images through this block*/
+	margin-top:10px;
+    height: 30px;
+    padding: 4px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+#sses2 {
+    /* margin:0 auto; This will make the menu center-aligned. Removing this line will make the menu align left.*/
+}
+
+#sses2 ul {
+    position: relative;
+    list-style-type: none;
+    float:left;
+    padding:0;margin:0;
+}
+
+#sses2 li {
+    float:left;
+    list-style-type: none;
+    padding:0;margin:0;background-image:none;
+}
+
+/*CSS for background bubble*/
+#sses2 li.highlight {
+    background: #036 url('../images/menu-bar/mb2_2.gif') no-repeat center bottom;
+    top:0px;
+    height:30px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    z-index: 1;
+    position: absolute;
+    overflow:hidden;
+}
+
+#sses2 li a {
+    height:30px;
+    padding-top: 8px;
+    margin: 0 20px;/*used to adjust the distance between each menu item. Now the distance is 20+20=40px.*/
+    color: #fff;
+    font: normal 14px arial;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+/* Helper classes
+================================================= */
+
+.clearfix:after {
+  content: '.';
+  display: block;
+  visibility: hidden;
+  height: 0;
+}
+
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+
+
+/* #Media Queries
+================================================== */
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .inner {
+    width: 740px;
+  }
+  header h1, header h2 {
+    width: 340px;
+  }
+  header h1 {
+    font-size: 60px;
+  }
+  header h2 {
+    font-size: 30px;
+  }
+  #main-content {
+    width: 490px;
+  }
+  #main-content h1:before,
+  #main-content h2:before,
+  #main-content h3:before,
+  #main-content h4:before,
+  #main-content h5:before,
+  #main-content h6:before {
+    content: none;
+    padding-right: 0;
+    margin-left: 0;
+  }
+  #instalation img {
+	max-width: 488px;
+  }
+  aside#applicationSidebar {
+	display: none;
+  }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  .inner {
+    width: 93%;
+  }
+  header {
+    padding: 20px 0;
+  }
+  header .inner {
+    position: relative;
+  }
+  header h1, header h2 {
+    width: 100%;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 24px;
+  }
+  header a.button {
+    background-image: none;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 5px 10px;
+    position: relative;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1;
+    background-color: #9ddcff;
+    color: #2879d0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  }
+  header a.button small {
+    font-size: 13px;
+    display: inline;
+  }
+  #main-content,
+  aside#applicationSidebar,
+  aside#sidebar {
+    float: none;
+    width: 100% ! important;
+  }
+  aside#applicationSidebar,
+  aside#sidebar {
+    background-image: none;
+    margin-top: 20px;
+    border-top: solid 1px #ddd;
+    padding: 20px 0;
+    min-height: 0;
+  }
+  aside#applicationSidebar,
+  aside#sidebar a.button, aside#sidebar p, aside#sidebar img {
+	display: none;
+  }
+
+  #main-content h1:before,
+  #main-content h2:before,
+  #main-content h3:before,
+  #main-content h4:before,
+  #main-content h5:before,
+  #main-content h6:before {
+    content: none;
+    padding-right: 0;
+    margin-left: 0;
+  }
+  #instalation img,
+  #sliderFrame,
+  #slider img {
+    max-width: 434px;
+  }
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+  #instalation img,
+  #sliderFrame,
+  #slider img {
+    max-width: 284px;
+  }
+  #sses2 li a {
+    height:30px;
+    padding-top: 8px;
+    margin: 0 3px;/*used to adjust the distance between each menu item. Now the distance is 20+20=40px.*/
+    font: normal 12px arial;
+  }
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.sangrado {
+	margin-left: 30px;
+}
+
+.clear {
+	clear: both;
+}
+
+.icon {
+	float:right;
+	margin-top:20px;
+}
+
+.language {
+	float: right;
+	color: #fff;
+  font: normal 14px arial;
+	margin-top:22px;
+  margin-right: 30px;
+}
+
+.language label {
+	padding-right: 5px;
+}
+
+.language select {
+	border: 0;
+	border-radius: 5px;
+	background: white;
+}
+
+#content-and-aside h2 {
+	margin-top: 29px;
+}

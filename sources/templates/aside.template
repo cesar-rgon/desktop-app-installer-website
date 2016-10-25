@@ -1,0 +1,32 @@
+<div id="content-wrapper">
+	<div class="inner clearfix">
+		<aside id="sidebar">
+			<a href="https://github.com/cesar-rgon/desktop-app-installer" target="_blank" class="button">
+				<small>{{githubProyect}}</small>GitHub
+			</a>
+
+			<a href="https://github.com/cesar-rgon/desktop-app-installer/archive/master.tar.gz" class="button">
+				<small>{{download.title}}</small>{{download.file}}
+			</a>
+
+			<a href="https://github.com/cesar-rgon/desktop-app-installer" target="_blank">Desktop && App Installer Script</a>
+			{{developed}}
+			<a href="https://github.com/cesar-rgon" target="_blank">C&eacute;sar Rodr&iacute;guez Gonz&aacute;lez</a>.
+
+			<p>
+				{{generated}}
+				<a href="http://pages.github.com/" target="_blank">GitHub Pages</a>
+				{{theme}}
+				<a href="http://twitter.com/jasonlong" target="_blank">Jason Long</a>.
+				{{design}}
+				<a href="https://github.com/irgstudio" target="_blank">Isidro Rodr&iacute;guez Gonz&aacute;lez</a>
+				{{and}}
+				<a href="https://github.com/cesar-rgon" target="_blank">C&eacute;sar Rodr&iacute;guez Gonz&aacute;lez</a>.
+			</p>
+
+			<a href="{{urlFacebook}}" target="_blank">
+				<img src="../../images/template/facebook-logo.png" class="icon" alt="facebook"/>
+			</a>
+		</aside>
+	</div>
+</div>
