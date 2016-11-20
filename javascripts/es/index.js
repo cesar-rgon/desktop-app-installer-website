@@ -1,22 +1,22 @@
 var indexData = {
 	imageSlider: [
 		{imagePath: "../../images/monitores.png"},
-		{imagePath: "../../images/screenshots/es/zenity-02.png"},
+		{imagePath: "../../images/screenshots/es/yad-01.png"},
 		{imagePath: "../../images/screenshots/es/dialog-03.png"},
-		{imagePath: "../../images/screenshots/es/zenity-04.png"},
+		{imagePath: "../../images/screenshots/es/yad-03.png"},
 		{imagePath: "../../images/screenshots/es/dialog-05.png"},
-		{imagePath: "../../images/screenshots/es/zenity-06.png"},
+		{imagePath: "../../images/screenshots/es/yad-05.png"},
 		{imagePath: "../../images/screenshots/es/dialog-07.png"},
-		{imagePath: "../../images/screenshots/es/zenity-08.png"},
+		{imagePath: "../../images/screenshots/es/yad-07.png"},
 		{imagePath: "../../images/screenshots/es/dialog-09.png"},
-		{imagePath: "../../images/screenshots/es/zenity-10.png"},
+		{imagePath: "../../images/screenshots/es/yad-09.png"},
 		{imagePath: "../../images/screenshots/es/dialog-11.png"},
-		{imagePath: "../../images/screenshots/es/zenity-12.png"},
+		{imagePath: "../../images/screenshots/es/yad-11.png"},
 		{imagePath: "../../images/screenshots/es/dialog-13.png"},
+		{imagePath: "../../images/screenshots/es/yad-12.png"},
 		{imagePath: "../../images/screenshots/es/dialog-14.png"},
-		{imagePath: "../../images/screenshots/es/zenity-14.png"},
-		{imagePath: "../../images/screenshots/es/zenity-15.png"},
-		{imagePath: "../../images/screenshots/es/zenity-16.png"}
+		{imagePath: "../../images/screenshots/es/yad-13.png"},
+		{imagePath: "../../images/screenshots/es/yad-15.png"}
 	],
 	introduction: "Introducción",
 	presentation: "Menú que instala escritorios y/o aplicaciones a partir de repositorios oficiales, de terceros o fuentes externas \
@@ -38,7 +38,7 @@ var indexData = {
 		{feature: "Personaliza tanto como quieras editando algunos ficheros de configuración o subscripts"},
 		{feature: "Elimina automáticamente los repositorios de terceros que fueron agragados mediante PPA"},
 		{feature: "Soporte EULA. Se evita interacción de usuario para aceptar términos legales de la aplicación"},
-		{feature: "Interfaz adaptada al entorno detectado. Dialog (Terminal) / Zenity (escritorio)"},
+		{feature: "Interfaz adaptada al entorno detectado. Dialog (Terminal) / Yad o Zenity (escritorio)"},
 		{feature: "Fichero log que muestra los pasos de instalación y posibles errores producidos"},
 		{feature: "Soporte multi-idoma. En este momento, Inglés y Español están incluidos"},
 		{feature: "Válido para multiples arquitecturas: x64, i386, arm"}

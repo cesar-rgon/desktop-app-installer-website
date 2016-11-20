@@ -1,22 +1,22 @@
 var indexData = {
 	imageSlider: [
 		{imagePath: "../../images/monitors.png"},
-		{imagePath: "../../images/screenshots/en/zenity-02.png"},
+		{imagePath: "../../images/screenshots/en/yad-01.png"},
 		{imagePath: "../../images/screenshots/en/dialog-03.png"},
-		{imagePath: "../../images/screenshots/en/zenity-04.png"},
+		{imagePath: "../../images/screenshots/en/yad-03.png"},
 		{imagePath: "../../images/screenshots/en/dialog-05.png"},
-		{imagePath: "../../images/screenshots/en/zenity-06.png"},
+		{imagePath: "../../images/screenshots/en/yad-05.png"},
 		{imagePath: "../../images/screenshots/en/dialog-07.png"},
-		{imagePath: "../../images/screenshots/en/zenity-08.png"},
+		{imagePath: "../../images/screenshots/en/yad-07.png"},
 		{imagePath: "../../images/screenshots/en/dialog-09.png"},
-		{imagePath: "../../images/screenshots/en/zenity-10.png"},
+		{imagePath: "../../images/screenshots/en/yad-09.png"},
 		{imagePath: "../../images/screenshots/en/dialog-11.png"},
-		{imagePath: "../../images/screenshots/en/zenity-12.png"},
+		{imagePath: "../../images/screenshots/en/yad-11.png"},
 		{imagePath: "../../images/screenshots/en/dialog-13.png"},
+		{imagePath: "../../images/screenshots/en/yad-12.png"},
 		{imagePath: "../../images/screenshots/en/dialog-14.png"},
-		{imagePath: "../../images/screenshots/en/zenity-14.png"},
-		{imagePath: "../../images/screenshots/en/zenity-15.png"},
-		{imagePath: "../../images/screenshots/en/zenity-16.png"}
+		{imagePath: "../../images/screenshots/en/yad-13.png"},
+		{imagePath: "../../images/screenshots/en/yad-15.png"}
 	],
 	introduction: "Introduction",
 	presentation: "Menu to install desktops and/or applications from default repositories, third-party ones or another sources \
@@ -38,7 +38,7 @@ var indexData = {
 		{feature: "Customize all like you want just editing some config files (no need to edit main script)"},
 		{feature: "Remove third-party repositories automatically after the installation of the application"},
 		{feature: "EULA support. No need of user interaction to accept legal terms of the application"},
-		{feature: "The interface is adapted to the detected environment: Dialog (Terminal) / Zenity (Desktop)"},
+		{feature: "The interface is adapted to the detected environment: Dialog (Terminal) / Yad or Zenity (Desktop)"},
 		{feature: "Installation log file that shows installation steps and errors if they have occurred"},
 		{feature: "Multilingual support. Right now, English and Spanish languages are included"},
 		{feature: "Valid for multiple arquitecture systems: x64, i386, arm"}
