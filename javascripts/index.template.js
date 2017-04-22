@@ -83,12 +83,12 @@
     if (stack1 = helpers.runScriptMethod1) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
     else { stack1 = depth0.runScriptMethod1; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
     if (stack1 || stack1 === 0) { buffer += stack1; }
-    buffer += "</h5><pre><code>$ sudo apt-get install git\r\n$ git clone https://cesar-rgon/desktop-app-installer.git\r\n$ cd desktop-app-installer.git\r\n$ ./install.sh</code></pre><h5>";
+    buffer += "</h5><pre><code>$ sudo apt install git\r\n$ git clone https://github.com/cesar-rgon/desktop-app-installer.git\r\n$ cd desktop-app-installer\r\n$ ./installer.sh</code></pre><h5>";
 
     if (stack1 = helpers.runScriptMethod2) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
     else { stack1 = depth0.runScriptMethod2; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
     if(stack1 || stack1 === 0) { buffer += stack1; }
-    buffer += "</h5><pre><code>$ wget https://github.com/cesar-rgon/xfce-installer/archive/master.tar.gz\r\n$ tar -xvf master.tar.gz\r\n$ cd xfce-installer-master\r\n$ ./install.sh</code></pre><h2>";
+    buffer += "</h5><pre><code>$ wget https://github.com/cesar-rgon/desktop-app-installer/archive/master.tar.gz\r\n$ tar -xvf master.tar.gz\r\n$ cd desktop-app-installer-master\r\n$ ./installer.sh</code></pre><h2>";
 
     if (stack1 = helpers.installation) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
     else { stack1 = depth0.installation; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }

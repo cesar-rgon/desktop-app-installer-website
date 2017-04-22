@@ -47,7 +47,7 @@ var indexData = {
 	prerequisiteList: [
 		{prerequisite: "The installed O.S. on your system must be a <a href='http://www.ubuntu.com/' target='_blank'>Ubuntu</a> or \
 										<a href='http://www.debian.org/' target='_blank'>Debian</a> based O.S  (for desktop or server environment). \
-										The script <a href='https://github.com/cesar-rgon/desktop-app-installer' target='_blank'>Desktop && App Installer v1.3</a> \
+										The script <a href='https://github.com/cesar-rgon/desktop-app-installer' target='_blank'>Desktop && App Installer v1.3.x</a> \
 										is tested on next distros:  \
 			 							<a href='http://releases.ubuntu.com/16.04/' target='_blank'>Ubuntu 16.04 LTS (Xenial Xerus)</a>, \
 			 							<a href='https://www.debian.org/releases/jessie/' target='_blank'>Debian 8 (Jessie)</a>, \

@@ -8,7 +8,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   if (stack1 = helpers.githubProyect) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.githubProyect; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
-    + "</small>GitHub\n		</a> 	\n	\n\n	<a href=\"https://github.com/cesar-rgon/xfce-installer/archive/master.tar.gz\" class=\"button\">\n				<small>"
+    + "</small>GitHub\n		</a> 	\n	\n\n	<a href=\"https://github.com/cesar-rgon/desktop-app-installer/archive/master.tar.gz\" class=\"button\">\n				<small>"
     + escapeExpression(((stack1 = ((stack1 = depth0.download),stack1 == null || stack1 === false ? stack1 : stack1.title)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + "</small>"
     + escapeExpression(((stack1 = ((stack1 = depth0.download),stack1 == null || stack1 === false ? stack1 : stack1.file)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))

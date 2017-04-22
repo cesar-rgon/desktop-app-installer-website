@@ -48,7 +48,7 @@ var indexData = {
 		{prerequisite: "El sistema operativo instalado debe estar basado en \
 			<a href='http://www.ubuntu.com/' target='_blank'>Ubuntu</a> \
 			 o <a href='http://www.debian.org/' target='_blank'>Debian</a> (para escritorio o servidor). \
-			 El script <a href='https://github.com/cesar-rgon/desktop-app-installer' target='_blank'>Desktop && App Installer v1.3</a> \
+			 El script <a href='https://github.com/cesar-rgon/desktop-app-installer' target='_blank'>Desktop && App Installer v1.3.x</a> \
 			 está probado en las siguientes distros: \
 			 <a href='http://releases.ubuntu.com/16.04/' target='_blank'>Ubuntu 16.04 LTS (Xenial Xerus)</a>, \
 			 <a href='https://www.debian.org/releases/jessie/' target='_blank'>Debian 8 (Jessie)</a>, \
