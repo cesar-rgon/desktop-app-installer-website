@@ -2,27 +2,26 @@ var indexData = {
 	imageSlider: [
 		{imagePath: "../../images/monitors.png"},
 		{imagePath: "../../images/screenshots/en/yad-01.png"},
-		{imagePath: "../../images/screenshots/en/dialog-03.png"},
+		{imagePath: "../../images/screenshots/en/dialog-00.png"},
+		{imagePath: "../../images/screenshots/en/dialog-01.png"},
+		{imagePath: "../../images/screenshots/en/yad-02.png"},
+		{imagePath: "../../images/screenshots/en/dialog-02.png"},
 		{imagePath: "../../images/screenshots/en/yad-03.png"},
+		{imagePath: "../../images/screenshots/en/dialog-03.png"},
+		{imagePath: "../../images/screenshots/en/dialog-04.png"},
+		{imagePath: "../../images/screenshots/en/yad-04.png"},
 		{imagePath: "../../images/screenshots/en/dialog-05.png"},
 		{imagePath: "../../images/screenshots/en/yad-05.png"},
+		{imagePath: "../../images/screenshots/en/dialog-06.png"},
+		{imagePath: "../../images/screenshots/en/yad-06.png"},
 		{imagePath: "../../images/screenshots/en/dialog-07.png"},
-		{imagePath: "../../images/screenshots/en/yad-07.png"},
-		{imagePath: "../../images/screenshots/en/dialog-09.png"},
-		{imagePath: "../../images/screenshots/en/yad-09.png"},
-		{imagePath: "../../images/screenshots/en/dialog-11.png"},
-		{imagePath: "../../images/screenshots/en/yad-11.png"},
-		{imagePath: "../../images/screenshots/en/dialog-13.png"},
-		{imagePath: "../../images/screenshots/en/yad-12.png"},
-		{imagePath: "../../images/screenshots/en/dialog-14.png"},
-		{imagePath: "../../images/screenshots/en/yad-13.png"},
-		{imagePath: "../../images/screenshots/en/yad-15.png"}
+		{imagePath: "../../images/screenshots/en/yad-07.png"}
 	],
 	introduction: "Introduction",
 	presentation: "Menu to install desktops and/or applications from default repositories, third-party ones or another sources \
 								on next distros: <a href='http://releases.ubuntu.com/16.04/' target='_blank'>Ubuntu 16.04 LTS (Xenial Xerus)</a>, \
 								<a href='https://www.debian.org/releases/jessie/' target='_blank'>Debian 8 (Jessie)</a>, \
-								<a href='https://www.linuxmint.com/' target='_blank'>Linux Mint 18 (Sarah)</a>, \
+								<a href='https://www.linuxmint.com/' target='_blank'>Linux Mint 18.1 (Serena)</a>, \
 								<a href='https://www.linuxmint.com/download_lmde.php' target='_blank'>LMDE 2 (Betsy)</a> or \
 								<a href='https://www.raspberrypi.org/' target='_blank'>Raspbian (Jessie)</a> (desktop or terminal). \
 								Users can easily customize their application list just editing a single text file and extend \
@@ -51,7 +50,7 @@ var indexData = {
 										is tested on next distros:  \
 			 							<a href='http://releases.ubuntu.com/16.04/' target='_blank'>Ubuntu 16.04 LTS (Xenial Xerus)</a>, \
 			 							<a href='https://www.debian.org/releases/jessie/' target='_blank'>Debian 8 (Jessie)</a>, \
-			 							<a href='https://www.linuxmint.com/' target='_blank'>Linux Mint 18 (Sarah)</a>, \
+			 							<a href='https://www.linuxmint.com/' target='_blank'>Linux Mint 18.1 (Serena)</a>, \
 			 							<a href='https://www.linuxmint.com/download_lmde.php' target='_blank'>LMDE 2 (Betsy)</a>, \
 										<a href='https://www.raspberrypi.org/' target='_blank'>Raspbian (Jessie)</a>. \
 										It is not guaranteed the correct operation on another distros, \

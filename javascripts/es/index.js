@@ -1,28 +1,27 @@
 var indexData = {
 	imageSlider: [
-		{imagePath: "../../images/monitores.png"},
+		{imagePath: "../../images/monitors.png"},
 		{imagePath: "../../images/screenshots/es/yad-01.png"},
-		{imagePath: "../../images/screenshots/es/dialog-03.png"},
+		{imagePath: "../../images/screenshots/es/dialog-00.png"},
+		{imagePath: "../../images/screenshots/es/dialog-01.png"},
+		{imagePath: "../../images/screenshots/es/yad-02.png"},
+		{imagePath: "../../images/screenshots/es/dialog-02.png"},
 		{imagePath: "../../images/screenshots/es/yad-03.png"},
+		{imagePath: "../../images/screenshots/es/dialog-03.png"},
+		{imagePath: "../../images/screenshots/es/dialog-04.png"},
+		{imagePath: "../../images/screenshots/es/yad-04.png"},
 		{imagePath: "../../images/screenshots/es/dialog-05.png"},
 		{imagePath: "../../images/screenshots/es/yad-05.png"},
+		{imagePath: "../../images/screenshots/es/dialog-06.png"},
+		{imagePath: "../../images/screenshots/es/yad-06.png"},
 		{imagePath: "../../images/screenshots/es/dialog-07.png"},
-		{imagePath: "../../images/screenshots/es/yad-07.png"},
-		{imagePath: "../../images/screenshots/es/dialog-09.png"},
-		{imagePath: "../../images/screenshots/es/yad-09.png"},
-		{imagePath: "../../images/screenshots/es/dialog-11.png"},
-		{imagePath: "../../images/screenshots/es/yad-11.png"},
-		{imagePath: "../../images/screenshots/es/dialog-13.png"},
-		{imagePath: "../../images/screenshots/es/yad-12.png"},
-		{imagePath: "../../images/screenshots/es/dialog-14.png"},
-		{imagePath: "../../images/screenshots/es/yad-13.png"},
-		{imagePath: "../../images/screenshots/es/yad-15.png"}
+		{imagePath: "../../images/screenshots/es/yad-07.png"}
 	],
 	introduction: "Introducción",
 	presentation: "Menú que instala escritorios y/o aplicaciones a partir de repositorios oficiales, de terceros o fuentes externas \
 								para las siguientes distros: <a href='http://releases.ubuntu.com/16.04/' target='_blank'>Ubuntu 16.04 LTS (Xenial Xerus)</a>, \
 								<a href='https://www.debian.org/releases/jessie/' target='_blank'>Debian 8 (Jessie)</a>, \
-								<a href='https://www.linuxmint.com/' target='_blank'>Linux Mint 18 (Sarah)</a> \
+								<a href='https://www.linuxmint.com/' target='_blank'>Linux Mint 18.1 (Serena)</a> \
 								<a href='https://www.linuxmint.com/download_lmde.php' target='_blank'>LMDE 2 (Betsy)</a> o\
 								<a href='https://www.raspberrypi.org/' target='_blank'>Raspbian (Jessie)</a> (escrotorio o terminal). \
 								Los usuarios pueden personalizar la lista de aplicaciones tan solo editando un fichero de texto y \
@@ -52,7 +51,7 @@ var indexData = {
 			 está probado en las siguientes distros: \
 			 <a href='http://releases.ubuntu.com/16.04/' target='_blank'>Ubuntu 16.04 LTS (Xenial Xerus)</a>, \
 			 <a href='https://www.debian.org/releases/jessie/' target='_blank'>Debian 8 (Jessie)</a>, \
-			 <a href='https://www.linuxmint.com/' target='_blank'>Linux Mint 18 (Sarah)</a>, \
+			 <a href='https://www.linuxmint.com/' target='_blank'>Linux Mint 18.1 (Serena)</a>, \
 			 <a href='https://www.linuxmint.com/download_lmde.php' target='_blank'>LMDE 2 (Betsy)</a>, \
 			 <a href='https://www.raspberrypi.org/' target='_blank'>Raspbian (Jessie)</a>. \
 			 No se garantiza el correcto funcionamiento en otras distros, \
