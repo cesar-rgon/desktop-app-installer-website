@@ -1,4 +1,4 @@
-var indexData = {
+Debian 9 (Stretch)var indexData = {
 	imageSlider: [
 		{imagePath: "../../images/monitors.png"},
 		{imagePath: "../../images/screenshots/en/yad-01.png"},
@@ -20,7 +20,7 @@ var indexData = {
 	introduction: "Introduction",
 	presentation: "Menu to install desktops and/or applications from default repositories, third-party ones or another sources \
 								on next distros: <a href='http://releases.ubuntu.com/16.04/' target='_blank'>Ubuntu 16.04 LTS (Xenial Xerus)</a>, \
-								<a href='https://www.debian.org/releases/jessie/' target='_blank'>Debian 8 (Jessie)</a>, \
+								<a href='https://www.debian.org/releases/stretch/' target='_blank'>Debian 9 (Stretch)</a>, \
 								<a href='https://www.linuxmint.com/' target='_blank'>Linux Mint 18.1 (Serena)</a>, \
 								<a href='https://www.linuxmint.com/download_lmde.php' target='_blank'>LMDE 2 (Betsy)</a> or \
 								<a href='https://www.raspberrypi.org/' target='_blank'>Raspbian (Jessie)</a> (desktop or terminal). \
@@ -49,7 +49,7 @@ var indexData = {
 										The script <a href='https://github.com/cesar-rgon/desktop-app-installer' target='_blank'>Desktop && App Installer v1.3.x</a> \
 										is tested on next distros:  \
 			 							<a href='http://releases.ubuntu.com/16.04/' target='_blank'>Ubuntu 16.04 LTS (Xenial Xerus)</a>, \
-			 							<a href='https://www.debian.org/releases/jessie/' target='_blank'>Debian 8 (Jessie)</a>, \
+			 							<a href='https://www.debian.org/releases/stretch/' target='_blank'>Debian 9 (Stretch)</a>, \
 			 							<a href='https://www.linuxmint.com/' target='_blank'>Linux Mint 18.1 (Serena)</a>, \
 			 							<a href='https://www.linuxmint.com/download_lmde.php' target='_blank'>LMDE 2 (Betsy)</a>, \
 										<a href='https://www.raspberrypi.org/' target='_blank'>Raspbian (Jessie)</a>. \
