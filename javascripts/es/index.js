@@ -23,7 +23,7 @@ var indexData = {
 								<a href='https://www.debian.org/releases/stretch/' target='_blank'>Debian 9 (Stretch)</a>, \
 								<a href='https://www.linuxmint.com/' target='_blank'>Linux Mint 18.1 (Serena)</a> \
 								<a href='https://www.linuxmint.com/download_lmde.php' target='_blank'>LMDE 2 (Betsy)</a> o\
-								<a href='https://www.raspberrypi.org/' target='_blank'>Raspbian (Jessie)</a> (escrotorio o terminal). \
+								<a href='https://www.raspberrypi.org/' target='_blank'>Raspbian (Stretch)</a> (escrotorio o terminal). \
 								Los usuarios pueden personalizar la lista de aplicaciones tan solo editando un fichero de texto y \
 								extender la funcionalidad del menú agregando subscripts específicos",
 	features: "Características",
@@ -53,7 +53,7 @@ var indexData = {
 			 <a href='https://www.debian.org/releases/stretch/' target='_blank'>Debian 9 (Stretch)</a>, \
 			 <a href='https://www.linuxmint.com/' target='_blank'>Linux Mint 18.1 (Serena)</a>, \
 			 <a href='https://www.linuxmint.com/download_lmde.php' target='_blank'>LMDE 2 (Betsy)</a>, \
-			 <a href='https://www.raspberrypi.org/' target='_blank'>Raspbian (Jessie)</a>. \
+			 <a href='https://www.raspberrypi.org/' target='_blank'>Raspbian (Stretch)</a>. \
 			 No se garantiza el correcto funcionamiento en otras distros, \
 			 aunque con pequeños ajustes debería funcionar en su totalidad"},
 		{prerequisite: "Debe disponer de conexión a internet"},
