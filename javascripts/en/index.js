@@ -1,4 +1,4 @@
-Debian 9 (Stretch)var indexData = {
+var indexData = {
 	imageSlider: [
 		{imagePath: "../../images/monitors.png"},
 		{imagePath: "../../images/screenshots/en/yad-01.png"},
